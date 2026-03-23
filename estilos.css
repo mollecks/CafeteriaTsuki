@@ -1,0 +1,435 @@
+@media (max-width: 768px)
+
+body{
+  background-color: #B5CADF;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* TITULO */
+.titulo{
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding: 25px;
+
+  background: linear-gradient(to right, #fff0f5, #c2e9fb);
+  border-radius: 0 0 20px 20px;
+  color: #4a2c2a;
+  letter-spacing: 3px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: #416C97;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  background: #d48b6a;
+  transform: scale(1.1);
+}
+
+/* INTRO */
+.intro{
+  background-color: #F8FAFC;
+  padding: 25px;
+  border-radius: 15px;
+  margin: 30px auto;
+  width: 85%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.img-intro{
+  float: left;
+  width: 250px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.mini-titulo{
+  font-size: 20px;
+  color: #8b0000;
+}
+
+.parrafo{
+  font-size: 15px;
+  color: #292524;
+  text-align: justify;
+  line-height: 1.6; 
+  letter-spacing: 1px;
+}
+
+/* MENU */
+.menu{
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+.menusito{
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding: 20px;
+
+  background: linear-gradient(to right, #a1c4fd, #fff0f5);
+  border-radius: 15px;
+  color: #4a2c2a;
+  letter-spacing: 2px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TABLA */
+.tabla-menu {
+  width: 85%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background:#F8FAFC;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.tabla-menu th,
+.tabla-menu td {
+  padding: 8px;
+  text-align: center;
+}
+
+.tabla-menu th {
+  background:#416C97;
+  color: white;
+}
+
+.tabla-menu td {
+  background: #F8FAFC;
+  font-size: 14px;
+}
+
+/* hover filas */
+.tabla-menu tr:hover {
+  background: #eaf2fb;
+}
+
+/* imágenes */
+.tabla-menu img {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.tabla-menu img:hover {
+  transform: scale(1.1);
+}
+
+/* PROMOS */
+.promos {
+  width: 85%;
+  margin: 30px auto;
+  background: #416C97;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.titulo-promos {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.lista-promos li {
+  background: #B5CADF;
+  color: black;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.video-page {
+  background: #B5CADF;
+  min-height: 100vh;
+  padding: 30px;
+  text-align: center;
+}
+
+/* TITULO */
+.titulo-video-page {
+  font-family: 'Playfair Display', serif;
+  color: #416C97;
+  margin-bottom: 20px;
+}
+
+/* CONTENEDOR VIDEO */
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* VIDEO */
+.video-principal {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* INFO */
+.video-info {
+  background: #fff0f5;
+  padding: 15px;
+  border-radius: 12px;
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* BOTÓN */
+.btn-volver {
+  display: inline-block;
+  margin-top: 20px;
+  background: #416C97;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-volver:hover {
+  background: #d48b6a;
+  transform: scale(1.05);
+}
+
+/* MUSICA */
+.musica {
+  width: 85%;
+  margin: 30px auto;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.video-link {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.btn-video {
+  background: #416C97;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.btn-video:hover {
+  background: #d48b6a;
+  transform: scale(1.05);
+}
+
+audio {
+  width: 250px;
+}
+
+/* SCROLL SUAVE */
+html {
+  scroll-behavior: smooth;
+}
+
+.creditos {
+  width: 85%;
+  margin: 40px auto;
+  background: #fff0f5;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.titulo-creditos {
+  font-family: 'Playfair Display', serif;
+  color: #4a2c2a;
+  margin-bottom: 10px;
+}
+
+.texto-creditos {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* BOTÓN */
+.btn-bio {
+  display: inline-block;
+  background: #416C97;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-bio:hover {
+  background: #d48b6a;
+  transform: scale(1.05);
+}
+
+/* CONTENEDOR */
+.bio-container {
+  width: 80%;
+  margin: 50px auto;
+  padding: 30px;
+
+  background: linear-gradient(to bottom, #F8FAFC, #B5CADF);
+  border-radius: 20px;
+
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+  position: relative;
+  overflow: hidden;
+}
+
+/* CONTENEDOR */
+.bio-container {
+  width: 85%;
+  margin: 50px auto;
+  background: linear-gradient(to bottom, #fff0f5, #B5CADF);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+/* DETALLE ACUÁTICO */
+.bio-container::before {
+  content: "><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°>";
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 14px;
+  color: rgba(65,108,151,0.3);
+}
+
+.bio-container::after {
+  content: "><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°>><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°> ><(((°>   <°)))><   ><(((°>";
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-size: 14px;
+  color: rgba(65,108,151,0.3);
+}
+
+/* FOTO */
+.foto-perfil {
+  width: 180px;
+  height: auto;
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  margin: 15px 0;
+  transition: 0.3s;
+}
+
+.foto-perfil:hover {
+  transform: scale(1.05);
+}
+
+/* NOMBRE */
+.nombre {
+  font-size: 20px;
+  color: #416C97;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+/* TEXTO */
+.texto-bio {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.7;
+  padding: 0 10px;
+}
+
+/* IMAGEN TSUKI */
+.foto-tsuki {
+  width: 120px;
+  margin: 15px 0;
+  transition: 0.3s;
+}
+
+.foto-tsuki:hover {
+  transform: scale(1.1);
+}
+
+/* REDES */
+.redes {
+  margin-bottom: 20px;
+}
+
+.redes a {
+  display: inline-block;
+  margin: 6px;
+  padding: 8px 16px;
+  background: #416C97;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.redes a:hover {
+  background: #d48b6a;
+  transform: scale(1.08);
+}
+
+/* BOTÓN VOLVER */
+.btn-bio {
+  display: inline-block;
+  margin-top: 15px;
+  background: #416C97;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-bio:hover {
+  background: #d48b6a;
+  transform: scale(1.05);
+}
